@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(247, 240, 240);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 1800px;
+  
+}
+.wraper-form1{
+    width: 550px;
+   padding: 20px;
+   border:1px solid #fff;
+   border-radius: 20px;
+   margin: 0 auto;
+   background-color: #000;
+}
+#form1{
+    color:cornsilk;
+    
+}
+#form1 label{
+    display: block;
+    margin: 10px;
+
+}
+.inp{
+    margin: 10px;
+    width: 70%;
+    height: 30px;
+    font-size: 20px;
+}
+.form__item-radio1, .form__item-radio2{
+    position: relative;
+}
+
+#form__radio1{
+    position: absolute;
+    top:5; 
+    left: 70px;
+    height: 20px;
+    
+    width: 20px;
+}
+h1{
+    font-size: 20px;
+    margin: 20px;
+    
+}
+#form__radio2{
+    position: absolute;
+    top:5; 
+    left: 70px;
+    height: 20px;
+    
+    width: 20px;
+}
+.sp{
+   margin: 20px;
+}
+.ch-inp{
+    height: 20px;
+    
+    width: 20px;
+}
+#inp-file{
+    margin: 20px;
+    font-size: 20px;
+   
+}
+.btn{
+   margin: 10px;
+   width: 30%;
+   padding: 5px;
+   border-radius: 10px;
+   
+}
+.btn-sub{
+    background-color: rgb(230, 98, 98);
+}
+.btn-res{
+    background-color: rgb(55, 145, 133);
+}
+
+
+
+
+
+
+
+
+
+
+
+.openbtn{
+    display: block;
+    
+}
+.wrup-modal{
+    display: none;
+   
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+    background-color: rgba(18, 18, 19, .9);
+}
+.modal{
+position: relative;
+}
+.modal__cart{
+    position: absolute;
+    width: 550px;
+    height: 400px;
+    padding: 20px;
+   top: 100px;
+   left: 300px;
+    background-color: rgb(229, 226, 226);
+}
+.modal__title{
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.modal__titl-span{
+    height: 40px;
+    width: 40px;
+    display: block;
+    position: relative;
+    top: -20px;
+    left: 20px;
+   
+   
+   cursor: pointer;
+  
+
+}
+.modal__text{
+    height: 50%;
+    padding: 15px;
+}
+.modal__btn{
+    margin-top: 30px;
+   
+    width: 30%;
+    padding: 5px;
+    border:1px solid;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.modal__footer{
+    display: flex;
+}
+.modal__btn:hover{
+    background-color: rgb(158, 150, 150);
+    cursor: pointer;
+}
